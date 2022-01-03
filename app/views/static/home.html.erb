@@ -36,7 +36,7 @@ body {
   width: 40;
 }
 
-.tagline-container {
+.container {
   width: -moz-available;
   display: flex;
   justify-content: center;
@@ -49,6 +49,34 @@ body {
   bakcground-size: cover;
 }
 
+.button {
+  background-color: #ffa113;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.bulletin-board {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.portrait {
+  border: solid white 3px;
+  margin-top: 10px;
+  width: 300;
+  height: 300;
+}
+
 </style>
 
 
@@ -56,12 +84,27 @@ body {
 
 <div class="header">
   <div class="social">
-    <img src="https://i.imgur.com/vEyyLsE.png" alt="join the mob" />
+    <img src="https://i.imgur.com/vEyyLsE.png" alt="join the mob" >
     <a href="https://twitter.com/monstermobnft"><img src="https://i.imgur.com/P4oudnS.png" alt="twitter" /></a>
     <a href="https://discord.gg/ZNnVSuWYMS"><img src="https://i.imgur.com/kKjGpdi.png" alt="discord" /></a>
   </div>
 </div>
 
-<div class="tagline-container">
+<div class="container">
   <img src="https://i.imgur.com/16PgdnX.png" alt="tagline" />
+</div>
+
+<div class="container">
+  <button class="button">
+    <a href="https://opensea.io/collection/monstermob" alt="openSea">Check us out on OpenSea</a>
+  </button>
+</div>
+
+<div class="bulletin-board">
+  <img src="https://i.imgur.com/3doGkZx.png" alt="monster" class="portrait"/>
+  <img src="https://i.imgur.com/fibg0cf.png" alt="monster" class="portrait"/>
+  <img src="https://i.imgur.com/4ax6ZaZ.png" alt="monster" class="portrait"/>
+  <img src="https://i.imgur.com/iAy4vYm.png" alt="monster" class="portrait"/>
+  <img src="https://i.imgur.com/vTvWM0P.png" alt="monster" class="portrait"/>
+  <img src="https://i.imgur.com/RPiWni5.png" alt="monster" class="portrait"/>
 </div>
