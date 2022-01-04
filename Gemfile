@@ -32,6 +32,10 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+gem 'net-smtp', require: false
+gem 'net-imap', require: false
+gem 'net-pop', require: false
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
